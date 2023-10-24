@@ -21,6 +21,7 @@ def main():
 
     ## display the 2nd server in row2
     print(datacenterdecoded["row2"][1])
+    print(datacenterdecoded["row2"][-1])
 
 if __name__ == "__main__":
     main()
